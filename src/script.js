@@ -21,7 +21,8 @@ const scene = new THREE.Scene()
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/1.png')
+const matcapTexture = textureLoader.load('./textures/matcaps/1.png')
+
 
 /**
  * Temporary cube to verify scene is working
